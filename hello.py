@@ -1,6 +1,3 @@
-from email import message
-
-
 greeting = 'Hello'
 name = 'Michael'
 
