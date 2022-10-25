@@ -9,11 +9,9 @@ class Roll:
         self.num_die = num_die
     
     def roll(self):
-        roll = list()
-        i = 1
-        while i <= self.num_die:
+        roll = []
+        for i in range(self.num_die):
             roll.append(dice())
-            i += 1
         return roll
 
 roll_1 = tuple(Roll(5).roll())
