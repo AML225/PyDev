@@ -41,9 +41,5 @@ print(f'Roll 3 is: {roll_3}')
 keep_roll.extend(roll_3)
 
 print(f'Your final 5 dice values are: {keep_roll}')
-
-
-
-
-
+    
 
